@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex-grow</title>
+    <link href="flex_items_flex-grow.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="theory">
+<h1>Flex-grow,  Theory</h1>
+    <p> All flex items shrink proportionally when the flex container is too small.
+    However, if the parent container is larger than necessary then the flex items
+    will not stretch by default. The flex-grow property allows us to specify if items
+    should grow to fill a container and also which items should grow proportionally more
+    or less than others.
+    </p>
+    <p>
+        <strong>flex-grow</strong> is declared specifically on flex <strong>items</strong>, not flex containers, or the parent elements
+    </p>
+</div>
+
+<div id="text_example">
+
+<h1>TEXT EXAMPLE (play with the HTML)</h1>
+    <div class="container">
+
+        <div class="side">
+        <h1>I’m on the left side of the flex container!</h1>
+        </div>
+        <div class="center">
+        <h1>I'm in the center of the flex container! I should stretch twice as much as the .side divs
+            growgrowgrowgrowgrowgrowgrowgrowgrowgrowgrowgrowgrowgrowgro</h1>
+        </div>
+        <div class=”side”>
+        <h1>I'm on the right side of the flex container! grow w</h1>
+        </div>
+    </div>
+
+</div>
+
+<div id="visual_example">
+
+<h1>Step 1</h1>
+<div id="top">
+    <div class="top side">
+        <h2>1</h2>
+        <p>flex-grow: 1</p>
+    </div>
+    <div class="top center">
+        <h2>2</h2>
+        <p>flex-grow: 1</p>
+    </div>
+    <div class="top side">
+        <h2>3</h2>
+        <p>flex-grow: 1</p>
+    </div>
+</div>
+<h1>Step 2</h1>
+<div id="middle">
+    <div class="middle side">
+        <h2>1</h2>
+    </div>
+    <div class="middle center">
+        <h2>2</h2>
+        <p>flex-grow: 1</p>
+    </div>
+    <div class="middle side">
+        <h2>3</h2>
+    </div>
+</div>
+
+<h1>Step 3</h1>
+<div id="bottom">
+    <div class="bottom side">
+        <h2>1</h2>
+        <p>flex-grow: 1</p>
+    </div>
+    <div class="bottom center">
+        <h2>2</h2>
+        <p>flex-grow: 2</p>
+    </div>
+    <div class="bottom side">
+        <h2>3</h2>
+        <p>flex-grow: 1</p>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
