@@ -2,10 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>display and position</title>
-    <link type="text/css" href="flex_containers.css" rel="stylesheet">
+    <title>justify-content</title>
+    <link href="flex_containers_justify-content.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<div id="theory">
+
+    <h1>justify-content</h1>
+
+    <p>
+        When changing the display value of parent containers to flex or inline-flex,
+        all of the child elements (flex items) move toward the upper left corner of the parent container.
+        This is the default behavior of flex containers and their children.
+        We can specify how flex items spread out from left to right, along the main axis.
+        To position the items from left to right, we use a property called justify-content.
+    </p>
+
+</div>
+
+
+<div id="flex">
 <h1>Flex Start</h1>
 <div class="container" id="flexstart">
     <div class="box"></div>
@@ -36,5 +52,7 @@
     <div class="box"></div>
     <div class="box"></div>
 </div>
+</div>
 </body>
+
 </html>
