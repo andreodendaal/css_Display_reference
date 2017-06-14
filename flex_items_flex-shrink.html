@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Shrink</title>
+    <link href="flex_items_flex-shrink.css" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+</head>
+<body>
+<div id="theory">
+
+    <h1>flex-shrink</h1>
+
+    <p>
+        Just as the flex-grow property proportionally stretches flex items,
+        the flex-shrink property can be used to specify which elements will
+        shrink and in what proportions.
+    </p>
+
+    <h1>flex-shrink: 2; & undeclared (default value 1)</h1>
+</div>
+
+    <div id="top">
+        <div class="top side">
+
+            <p>flex-grow: 1;</p>
+            <p>flex-shrink: 2</p>
+        </div>
+        <div class="top center">
+            <p>flex-grow: 1;</p>
+            <p>flex-shrink undeclared: default 1</p>
+        </div>
+        <div class="top side">
+            <p>flex-grow: 1;</p>
+            <p>flex-shrink: 2;</p>
+        </div>
+    </div>
+
+    <div id="middle">
+        <h1>flex-shrink: 0;</h1>
+        <div class="middle side">
+            <p>flex-shrink: 0;</p>
+        </div>
+        <div class="middle center">
+            <p>flex-grow: 1;</p>
+            <p>flex-shrink undeclared: default 1</p>
+        </div>
+        <div class="middle side">
+            <p>flex-shrink: 0;</p>
+        </div>
+    </div>
+
+    <div id="bottom">
+        <h1>flex-shrink: 2;</h1>
+        <div class="bottom side">
+            <p>flex-grow: 1;</p>
+            <p>flex-shrink undeclared: default 1</p>
+        </div>
+        <div class="bottom center">
+            <p>flex-grow: 2;</p>
+            <p>flex-shrink: 2;</p>
+        </div>
+        <div class="bottom side">
+
+            <p>flex-grow: 1;</p>
+            <p>flex-shrink undeclared: default 1</p>
+        </div>
+    </div>
+
+</body>
+</html>

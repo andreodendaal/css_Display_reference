@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex-basis</title>
+    <link href="flex_items_flex-basis.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div id="theory">
+
+    <h1>flex-basis</h1>
+
+    <p>
+        The dimensions of divs can be determined by heights and widths set with CSS.
+        Another way of specifying the width of a flex item is with the flex-basis property.
+        flex-basis allows us to specify the width of an item before it stretches or shrinks.
+    </p>
+
+</div>
+
+<div id="practice">
+    <h1>Grows</h1>
+    <div id="grows">
+        <div class="grow side">
+            <p>flex-basis: 60px;</p>
+            <p>flex-grow: 1;</p>
+        </div>
+        <div class="grow center">
+            <p>flex-grow: 3;</p>
+        </div>
+        <div class="grow side">
+            <p>flex-basis: 60px;</p>
+            <p>flex-grow: 1;</p>
+        </div>
+    </div>
+    <h1>Shrinks</h1>
+    <div id="shrinks">
+        <div class="shrink side">
+            <p>flex-basis: 300px;</p>
+            <p>flex-shrink: 3;</p>
+        </div>
+        <div class="shrink center">
+            <p>flex-basis: 150px;</p>
+            <p>flex-shrink: 2;</p>
+        </div>
+        <div class="shrink side">
+            <p>flex-basis: 300px;</p>
+            <p>flex-shrink: 3;</p>
+        </div>
+    </div>
+
+
+</div>
+
+</body>
+</html>
