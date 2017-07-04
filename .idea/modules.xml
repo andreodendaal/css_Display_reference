@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/css_Display_reference.iml" filepath="$PROJECT_DIR$/.idea/css_Display_reference.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/../CSS_Display_reference/.idea/CSS_Display.iml" filepath="$PROJECT_DIR$/../CSS_Display_reference/.idea/CSS_Display.iml" />
+>>>>>>> 396aedc81a6b83795914a8cb9e64c636429f3497
     </modules>
   </component>
 </project>
