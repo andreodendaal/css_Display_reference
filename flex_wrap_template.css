@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.o_list_cent{
+    display: inline-block;
+}
+
+.li_cent{
+    text-align: left;
+}
+
+
+h1,
+h3 {
+    text-align: center;
+}
+
+.row {
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    min-height: 125px;
+    justify-content: space-around;
+}
+
+.box {
+    background-color: whitesmoke;
+    padding: 5px;
+    border: 1px solid white;
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+
+}
+
+#nowrap {
+    flex-wrap:nowrap;
+
+}
+
+#reverse {
+    flex-wrap: wrap-reverse;
+}
